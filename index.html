@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+                <style>.lw { font-size: 60px; font-family: Arial, Helvetica, sans-serif; }</style>
+            </head>
+            <body>
+                
+
+    <meta charset="UTF=8">
+<title>祝福語</title>
+
+
+    <center>
+        <h1>🪖新年快樂！</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/en/6/6c/Wanderer_in_Genshin_Impact.png" width="30%"><br>
+    <button onclick="ask()">祝福語</button>
+    <p id="good">憑你也配？</p>
+    </center>
+
+
+                <script>// Write JavaScript here
+
+var verse = [
+"蠢貨!",
+"滾！",
+"憑你也配？"
+]
+function ask(){
+    var random = parseInt(Math.random() * 3);
+    document.getElementById("good").innerText = verse[random];
+
+}</script>
+            
+        
+    </body>
